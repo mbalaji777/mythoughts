@@ -1,58 +1,5 @@
 /*===================================Styling for the main page (index.html) starts here=========================================*/
 /*styling for the title*/
-.title{
-	font-family: 'Lobster', cursive;
-	text-align: center;
-	padding: 20px;
-	margin: 20px;
-}
-/*styling for the typewriter style*/
-.typewriter{
-	font-size: 4vw;
-	font-weight: 200;
-	padding: 20px;
-	margin: 20px;
-  	text-align: center;
-  	font-family: 'Source Code Pro', monospace;
-}
-/*styling for the thank you header*/
-.thankyou{
-	text-align: center;
-	padding: 20px;
-	margin: 20px;
-	font-family: 'Pacifico', cursive;
-	font-size: 3em;
-  line-height: 70px;
-}
-.thankyoup{
-	text-align: center;
-	padding: 20px;
-	margin: 10px;
-	font-family: 'Baloo 2', cursive;
-	font-size: 1em;	
-}
-
-.myimage{
-	border-radius: 50%;
-	max-width: 90%;
-	height: auto;
-}
-
-.aboutme{
-	text-align: center;
-}
-
-.aboutMeHeading{
-	padding: 10px;
-	margin: 10px;
-	font-family: 'Pacifico', cursive;
-	font-size: 3em;
-}
-
-.aboutMePara{
-	font-family: 'Baloo 2', cursive;
-	font-size: 1.5em;
-}
 
 .image-container {
   background-image: url("todaysblogs.jpg"); /* The image used - important! */
@@ -98,26 +45,6 @@ a{
 
 .socials{
 	text-align: center;
-}
-
-.my-thoughts{
-	text-align: center;
-	font-size: 1em;
-	font-family: 'Baloo 2', cursive;
-	padding-top: 30px;
-}
-
-.blog-header{
-	text-align: center;
-	font-family: 'Baloo 2', cursive;
-	font-weight: 800;	
-	font-size: 3em;
-}
-
-.blog-desc{
-	text-align: center;
-	font-family: 'Baloo 2', cursive;
-	font-size: 1em;
 }
 
 .button {
@@ -189,12 +116,6 @@ a{
 /*===================================styling for the main page ends here page=========================================*/
 /*===================================styling for the about me page starts here=========================================*/
 
-.aboutMeDesc{
-	padding: 20px;
-	font-family: 'Baloo 2', cursive;
-	font-size: 1.2em;
-	text-align: center;
-}
 
 .progress-container {
   position: fixed;
@@ -216,12 +137,5 @@ a{
   z-index: 1;
   width: 100%;
   background-color: #f1f1f1;
-}
-
-.references{
-	text-align: center;
-	font-family: 'Baloo 2', cursive;
-	padding: 20px;
-	margin: : 10px;
 }
 /*===================================styling for the about me page ends here=========================================*/
