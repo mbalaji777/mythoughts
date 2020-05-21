@@ -2,10 +2,16 @@
 /*styling for the title*/
 
 .image-container {
-  background-image: url("todaysblogs.jpg"); /* The image used - important! */
-  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("iphonese.jpg"); /* The image used - important! */
+  background-size: contain;
   position: relative; /* Needed to position the cutout text in the middle of the image */
-  height: 250px; /* Some height */
+  height: 500px;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
 }
 
 .text {
