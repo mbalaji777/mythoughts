@@ -1,4 +1,4 @@
-/*===================================Styling for the main page (index.html) starts here=========================================*/
+
 /*styling for the title*/
 
 .image-container {
@@ -113,10 +113,6 @@ a{
 	}
 }
 
-/*===================================styling for the main page ends here page=========================================*/
-/*===================================styling for the about me page starts here=========================================*/
-
-
 .progress-container {
   position: fixed;
   width: 100%;
@@ -138,4 +134,19 @@ a{
   width: 100%;
   background-color: #f1f1f1;
 }
-/*===================================styling for the about me page ends here=========================================*/
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+/*styling for the content in the blog*/
+
+
+.references{
+  text-align: center;
+  font-family: 'Baloo 2', cursive;
+  padding: 20px;
+  margin: : 10px;
+}
