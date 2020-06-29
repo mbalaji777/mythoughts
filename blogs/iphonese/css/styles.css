@@ -156,3 +156,10 @@ a{
   padding: 20px;
   margin: : 10px;
 }
+
+.script{
+  text-align: justify;
+  font-size: 1.2em;
+  margin: 30px;
+  font-family: 'Baloo 2', cursive;
+}
